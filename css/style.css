@@ -3,14 +3,14 @@ body{
   margin: 0;
   display: flex;
   justify-content: center;
-  background-color: aqua;
+  background-color: rgb(25, 26, 25);
 }
 
 .piano{
   text-align: center;
 display:flex;
-min-width: 95vw;
-max-width: 95vw;
+min-width: 100vw;
+min-height: 100vh;
 height: auto;
 /*border: 1px solid black;*/
 }
@@ -20,4 +20,25 @@ height: auto;
   min-height: 40vh;
   border:1px solid black;
 
+}
+#cKey {
+  background-color: salmon;
+}
+#dKey {
+  background-color: yellow;
+}
+#eKey {
+  background-color: rgb(6, 247, 6);
+}
+#fKey {
+  background-color: red;
+}
+#gKey {
+  background-color: blue;
+}
+#aKey {
+  background-color: violet;
+}
+#bKey {
+  background-color: lightcyan;
 }
